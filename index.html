@@ -3,67 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy & Terms of Service - Enterprise Mass CCTV Configurator</title>
+    <title>End User License Agreement & Privacy Policy - CCTV Discovery Pro</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #f9f9f9;
-        }
-        .container {
-            background-color: #fff;
-            padding: 30px 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        h1 {
-            color: #111;
-            border-bottom: 2px solid #eaeaea;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #222;
-            margin-top: 30px;
-        }
-        p, li {
-            font-size: 16px;
-            color: #444;
-        }
-        ul {
-            padding-left: 20px;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #f9f9f9; }
+        .container { background-color: #fff; padding: 30px 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { color: #111; border-bottom: 2px solid #eaeaea; padding-bottom: 10px; font-size: 24px; }
+        h2 { color: #222; margin-top: 30px; font-size: 18px; }
+        p, li { font-size: 14px; color: #444; }
+        ul { padding-left: 20px; }
+        .strong-text { font-weight: bold; color: #000; }
+        .caps-text { text-transform: uppercase; font-weight: bold; }
     </style>
 </head>
 <body>
-
 <div class="container">
-    <h1>Privacy Policy & Terms of Service</h1>
-    <p><strong>Last Updated:</strong> April 2026</p>
+    <h1>End User License Agreement (EULA) & Privacy Policy</h1>
+    <p><strong>Application:</strong> CCTV Discovery Pro<br>
+    <strong>Developer:</strong> SubnetAlchemy-AC<br>
+    <strong>Last Updated:</strong> April 2026</p>
 
-    <h2>1. Data Collection & Privacy</h2>
-    <p>This application is designed as a localized network management tool. It performs Layer 2 and Layer 3 discovery on your local area network (LAN) to identify and configure IP surveillance equipment.</p>
+    <p>Please read this End User License Agreement ("Agreement") carefully before using CCTV Discovery Pro ("the Software"). By downloading, installing, or using the Software, you are agreeing to be bound by the terms and conditions of this Agreement.</p>
+
+    <h2>1. License Grant & Restrictions</h2>
+    <p>SubnetAlchemy-AC grants you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the Software strictly for your personal or internal business purposes strictly in accordance with the terms of this Agreement.</p>
     <ul>
-        <li><strong>No Cloud Transmission:</strong> No IP addresses, MAC addresses, device credentials, or network topology data are ever transmitted to the developer, third-party servers, or external analytics services.</li>
-        <li><strong>Local Processing Only:</strong> All discovery, configuration, and logging happen entirely on your local machine.</li>
+        <li>You may not decompile, reverse engineer, disassemble, attempt to derive the source code of, or decrypt the Software.</li>
+        <li>You may not use the Software to gain unauthorized access to any network, device, or camera system. The Software is intended strictly for use by authorized network administrators and field technicians on hardware they have explicit permission to manage.</li>
     </ul>
 
     <h2>2. Subscription & Billing</h2>
-    <p>Access to the application's core features requires an active auto-renewing subscription.</p>
+    <p>Access to the Software’s core features requires an active, auto-renewing subscription of €30 per year.</p>
     <ul>
-        <li>Billing is handled entirely securely by Microsoft (for Windows users) or Apple (for macOS users).</li>
-        <li>Subscriptions auto-renew annually unless canceled in your respective Store Account Settings at least 24 hours before the end of the current period.</li>
+        <li>Billing, cancellations, and refunds are handled entirely by Apple (via the Mac App Store) or Microsoft (via the Microsoft Store), depending on your platform.</li>
+        <li>Subscriptions auto-renew annually unless canceled in your respective App Store account settings at least 24 hours before the end of the current billing period.</li>
+        <li>SubnetAlchemy-AC does not process payments or retain payment information.</li>
     </ul>
 
-    <h2>3. Liability Limitations</h2>
-    <p>This software interacts directly with the network interfaces of hardware manufactured by third parties (Hikvision, Dahua, Axis, ONVIF-compliant devices, etc.). The developer is not liable for device unresponsiveness, IP conflicts, or network downtime resulting from user-initiated mass-configuration tasks.</p>
+    <h2>3. Data Collection, Privacy & Local Processing</h2>
+    <p>The Software performs Layer 2 and Layer 3 network discovery to identify and configure IP surveillance equipment.</p>
+    <ul>
+        <li><strong>Zero Data Exfiltration:</strong> No IP addresses, MAC addresses, device credentials, subnet topologies, CSV mapping files, or logs are ever transmitted to the developer, third-party servers, or external analytics services.</li>
+        <li><strong>Local Processing:</strong> All discovery (including UDP probes, TCP sweeps, and ARP caching), configuration, and credential handling occur entirely and exclusively on your local machine.</li>
+    </ul>
 
-    <h2>4. Contact & Support</h2>
-    <p>If you require technical assistance or have questions regarding your subscription, please manage your billing through your native OS App Store settings.</p>
+    <h2>4. Disclaimer of Warranties (AS IS)</h2>
+    <p class="caps-text">The Software is provided to you "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind.</p>
+    <p>To the maximum extent permitted under applicable law, SubnetAlchemy-AC expressly disclaims all warranties, whether express, implied, statutory, or otherwise, with respect to the Software. SubnetAlchemy-AC provides no warranty or undertaking, and makes no representation of any kind that the Software will meet your requirements, achieve any intended results, operate without interruption, meet any performance or reliability standards, or be error-free.</p>
+    <ul>
+        <li><strong>Firmware Incompatibilities:</strong> SubnetAlchemy-AC makes no guarantee that the Software will successfully configure all third-party hardware. Specific protocols (including, but not limited to, Hikvision SADP, Dahua CGI, and ONVIF WS-Discovery) are subject to undocumented manufacturer firmware changes. The developer is not responsible for failed configurations or rejected payloads due to firmware variations.</li>
+    </ul>
+
+    <h2>5. Limitation of Liability</h2>
+    <p class="caps-text">Under no circumstances shall SubnetAlchemy-AC be liable for any direct, indirect, incidental, special, consequential, or punitive damages whatsoever arising out of or related to your use of the Software.</p>
+    <p>This comprehensive limitation of liability explicitly includes, but is not limited to, damages arising from:</p>
+    <ul>
+        <li><strong>Network Disruption:</strong> Broadcast storms, IP conflicts, or downtime on any network where the Software is utilized.</li>
+        <li><strong>Hardware Failure:</strong> Bricked, unresponsive, or inaccessible cameras, switches, or other network hardware resulting from mass-configuration tasks, DHCP assignments, or static IP changes.</li>
+        <li><strong>Business Interruption:</strong> Loss of profits, loss of data, loss of goodwill, or business interruption resulting from the use or inability to use the Software.</li>
+    </ul>
+    <p>In no event shall the total liability of SubnetAlchemy-AC to you for all damages exceed the amount actually paid by you for the Software subscription during the twelve (12) months preceding the claim.</p>
+
+    <h2>6. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless SubnetAlchemy-AC from and against any and all claims, losses, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from or related to your use or misuse of the Software, your violation of this Agreement, or your violation of any third-party rights, including unauthorized network intrusions.</p>
+
+    <h2>7. Governing Law</h2>
+    <p>This Agreement shall be governed by and construed in accordance with the laws of the Republic of Cyprus, without regard to its conflict of law principles. Any legal action or proceeding arising under this Agreement will be brought exclusively in the courts located in Cyprus, and the parties hereby irrevocably consent to the personal jurisdiction and venue therein.</p>
 </div>
-
 </body>
 </html>
